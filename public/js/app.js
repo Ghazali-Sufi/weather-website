@@ -1,4 +1,4 @@
-console.log('Clientside Javascript file is loaded!');
+
 
     
 
