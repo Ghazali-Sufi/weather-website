@@ -5,7 +5,7 @@ const express = require('express')
 const hbs = require('hbs')
 
 const app = express()
-
+const port = process.env.PORT || 3000
 // We are telling express which templating engine we installed. => and that's views engine
 // Set allows you to set a value for a given express setting
 // That means, i need view engine that's called hbs 
@@ -93,6 +93,6 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Server is up on port 3000');
 })
