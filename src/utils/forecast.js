@@ -13,7 +13,7 @@ const forecast = (latitude, longitude, callback) => {
         } else {
         const tempreature = body.current.temp
         const rain = body.current.rain
-        const data = body.timezone.slice(7,16) + ' is a ' + body.daily[0].weather[0].description +' it\'s currently '+ tempreature + ' degrees out. There is a '+ body.daily[0].pop + '% chance of rain'
+        const data = body.daily[0].weather[0].description +'. It\'s currently '+ tempreature + ' degrees out. The high today is ' + body.daily[0].temp.max +' with a low of ' + body.daily[0].temp.min + '. There is a '+ body.daily[0].pop + '% chance of rain'
         callback(undefined,data)
         console.log('\n'); 
         }

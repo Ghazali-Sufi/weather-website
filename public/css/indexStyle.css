@@ -27,11 +27,12 @@ header {
 .parag{
   color:  #fed766;
   margin-left: 70px;
+  font-size: 26px;
   
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 94px;
   margin-bottom: 16px;
 }
 
@@ -40,6 +41,7 @@ header a {
   margin-right: 6px;
   padding-left: 20px;
   text-decoration: none;
+  font-size: 30px;
 }
 
 header a:hover{
@@ -54,13 +56,13 @@ footer {
   color: #888888;
   border-top: 2px solid #eeeeee;
   margin: 16px;
-  padding: 16px 0;
+  padding: 20px 0;
 }
 
 .form
 {
   margin-top: 30px;
-  padding-left: 50px;
+  padding-left: 78px;
 }
 
 input {
@@ -79,9 +81,10 @@ input:hover{
 }
 
 .messages{
-  width: 360px;
+  width: 450px;
   margin-top: 35px;
   margin-left: 50px;
+  font-size: 25px;
 }
 
 button {
@@ -100,9 +103,11 @@ button:hover{
   /* color:#ffcc5c; */
   color:  #52EE0E;
   margin-left: 20px;
+  
 }
 
 #message-2{
   color:#fdf498;
   line-height: 180%;
+  font-size: 20px;
 }
