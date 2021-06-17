@@ -135,6 +135,23 @@ button:hover{
     flex-grow: 1;
   }
 
+  header {
+    margin-top: 16px;
+    margin-left: 0px;
+    margin-bottom: 34px;
+  }
+
+  .parag{
+    color:  #fed766;
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 23px;
+  }
+
+  .form{
+  margin-top: 30px;
+  padding-left: 10px;
+}
   footer {
     color: #888888;
     border-top: 2px solid #eeeeee;
