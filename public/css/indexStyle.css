@@ -111,3 +111,35 @@ button:hover{
   line-height: 180%;
   font-size: 20px;
 }
+
+
+@media screen and (max-width: 600px) {
+
+  .myBody {
+    color: #2ab7ca;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/hills.jpg");
+    background-size: cover;
+  
+  }
+
+  .main-content {
+    flex-grow: 1;
+  }
+
+  footer {
+    color: #888888;
+    border-top: 2px solid #eeeeee;
+    margin: 16px;
+    padding: 20px 0;
+  }
+  
+}
